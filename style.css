@@ -4,33 +4,50 @@ html{
     overflow: hidden;
 }
 body{
-   
+
     margin: 0;
     padding: 0;
-    background: rgb(230, 228, 224);
-    background-image:url("Images/surf.jpg");
-    background-size: cover; 
+    background: black; 
+    background-image:url("Images/surf.jpg"); 
+    background-size: cover;
+    position: relative;
     perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-family: "Luna";
+    font-family: "Luna"; 
+}
+.first-section{
+    background-color: rgb(230, 138, 138); 
+    background-size: cover;
+    height: 500px;
+    position: relative;
 }
 
-header{
-    box-sizing: border-box;
-    min-height: 100vh;
-    padding: 30vw 0 5vw;
+.second-section{
+    background-color:orange; 
+    background-size: cover;
+    height: 500px;
     position: relative;
-    transform-style: inherit;
-    width: 100vw;
+}
+.third-section{
+    background-color:yellow; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.sfourth-section{
+    background-color:white; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
 }
 
 
 header h1{
     margin-top: -100px;
-    
+
 
 }
 
@@ -44,7 +61,7 @@ h1{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color:rgb(255, 255, 255);
+    /* color:rgb(255, 255, 255); */
     font-size: 45px;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
@@ -67,7 +84,7 @@ nav .logo
 }
 nav .logo img
 {
-    height: 80px;
+    height: 20px;
     transition: .5s;
 
 }
@@ -97,20 +114,18 @@ nav ul li a
 
 nav ul li a.active,
 nav ul li a:hover{
-    color:#fff;
-    background: #f00;
+    /* color:#fff; */
+    background: rgb(255, 190, 11);
 }
 
 section .sec1
 {
     width: 100%;
     height: 100vh;
-    
+
 
 }
 
 #particles-js{
   height: auto;
 }
-
-
